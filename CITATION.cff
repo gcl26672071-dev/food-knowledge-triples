@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+title: "Food Knowledge Triple Dataset / 食物知识三元组数据集"
+authors:
+  - alias: "Dataset Contributors"
+version: "1.0.0"
+date-released: 2026-09-11
+license: CC-BY-4.0
+keywords:
+  - food knowledge graph
+  - knowledge triples
+  - Chinese food
+  - dataset
+  - steganography research
+abstract: >-
+  A Chinese food knowledge triple dataset containing name, appearance,
+  texture, and taste relations. Version 1.0.0 contains 2,032 exact-deduplicated
+  complete triples, with the original file and review records preserved for
+  traceability.
