@@ -9,7 +9,7 @@
 - [ ] 已确认是否需要保留重复记录；默认推荐使用去重版。
 - [ ] 已检查仓库不存在密码、API Key、账号令牌、个人隐私信息或未公开的机密研究材料。
 - [ ] 已确认 CC BY 4.0 适合你的公开目标；如不适合，请在公开前替换 `LICENSE` 和 `CITATION.cff` 中的许可字段。
-- [ ] 建议将 `CITATION.cff` 中的 `Dataset Contributors` 替换为真实作者姓名/团队信息。
+- [x] `CITATION.cff` 已填写数据集作者李承罡（Li Chenggang）及单位信息；导师与合作者已在 README 中按角色列示。
 - [ ] 创建 GitHub 仓库后，可在 `CITATION.cff` 补充 `repository-code` 或 DOI（可选）。
 - [ ] 建议创建 GitHub Release：`v1.0.0`。
 

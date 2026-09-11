@@ -5,6 +5,16 @@
 > **推荐使用文件：** `data/processed/food_triples.csv`  
 > 该文件包含 **2032 条精确去重后的完整三元组**。
 
+## 项目人员 / Project Team
+
+- **数据集作者与维护者 / Dataset Author & Maintainer：** 李承罡（Li Chenggang；英文名/别名：`just`）
+- **单位 / Affiliation：** 甘肃农业大学 机电工程学院（College of Mechanical and Electrical Engineering, Gansu Agricultural University）
+- **学术指导 / Academic Advisor：** 杨婉霞
+- **合作者 / Contributor：** 张源浩
+- **公开联系邮箱 / Public Email：** 未提供
+
+> 说明：导师与合作者在本仓库中按“学术指导”和“合作者”列示，并不自动等同于论文或数据集的共同署名作者。若后续确定共同作者关系，应依据实际学术贡献与团队约定同步更新 `CITATION.cff`。
+
 ## 数据概览
 
 | 指标 | 数量 |
@@ -144,7 +154,11 @@ python scripts/validate_dataset.py
 
 仓库包含 `CITATION.cff`。GitHub 在默认分支识别该文件后，可显示 **Cite this repository**。
 
-当前作者使用通用占位标识 `Dataset Contributors`。正式公开前建议把 `CITATION.cff` 中的作者信息替换为你的真实姓名/团队信息，并在创建 GitHub 仓库后补充仓库 URL 或 DOI。
+当前 `CITATION.cff` 将 **李承罡（Li Chenggang）**列为数据集引用作者，单位为 **College of Mechanical and Electrical Engineering, Gansu Agricultural University**。英文名/别名 `just` 作为 alias 保留。
+
+学术指导 **杨婉霞** 与合作者 **张源浩** 已在本 README 的项目人员部分列示，但目前**没有自动加入 `CITATION.cff` 的 `authors` 列表**，以避免在未确认共同署名关系时将“指导/合作”直接等同于“引用作者”。如果团队确认三人均应作为数据集共同作者，应在正式发布前同步调整 `CITATION.cff`。
+
+创建 GitHub 仓库后，还可以在 `CITATION.cff` 中补充仓库 URL（`repository-code`）或后续 DOI。
 
 ## Version
 
@@ -154,4 +168,4 @@ python scripts/validate_dataset.py
 
 ### English summary
 
-This repository contains a Chinese food knowledge triple dataset with four relation types: food name, appearance, texture, and taste. The recommended processed file is `data/processed/food_triples.csv`, containing 2032 exact-deduplicated complete triples. The original file and all incomplete records are preserved for traceability and manual review.
+This repository contains a Chinese food knowledge triple dataset with four relation types: food name, appearance, texture, and taste. The recommended processed file is `data/processed/food_triples.csv`, containing 2032 exact-deduplicated complete triples. The original file and all incomplete records are preserved for traceability and manual review. The dataset author and maintainer is **Li Chenggang (alias: just)**, affiliated with the **College of Mechanical and Electrical Engineering, Gansu Agricultural University**. **杨婉霞** is listed as academic advisor and **张源浩** as contributor in the repository documentation.

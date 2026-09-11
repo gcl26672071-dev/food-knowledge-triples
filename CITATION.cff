@@ -3,7 +3,10 @@ message: "If you use this dataset, please cite it using the metadata below."
 type: dataset
 title: "Food Knowledge Triple Dataset / 食物知识三元组数据集"
 authors:
-  - alias: "Dataset Contributors"
+  - family-names: "Li"
+    given-names: "Chenggang"
+    alias: "just"
+    affiliation: "College of Mechanical and Electrical Engineering, Gansu Agricultural University"
 version: "1.0.0"
 date-released: 2026-09-11
 license: CC-BY-4.0
